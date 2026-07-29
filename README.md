@@ -19,14 +19,10 @@
 
 ## Visual Preview
 
-| Now Playing | Playlist Controls |
-| --- | --- |
-| <img src="docs/images/now-playing.svg" alt="Spotify Enhanced showing album artwork and track title on a Ulanzi button" width="420"> | <img src="docs/images/playlists.svg" alt="Spotify Enhanced playlist actions showing playlist artwork and play state" width="420"> |
-| Play/Pause mirrors the plugin render: album artwork fills the button, a large pause icon appears while playing, and only the song title is shown. | Playlist actions can show playlist artwork, saved/playing/paused state and provide quick access to fixed or browsable playlists. |
-
-<p align="center">
-  <img src="docs/images/settings-guide.svg" alt="Spotify Enhanced settings panel with local setup guide" width="720">
-</p>
+| Now Playing                                                                                                                                       | Playlist Controls                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="docs/images/now-playing.svg" alt="Spotify Enhanced showing album artwork and track title on a Ulanzi button" width="420">               | <img src="docs/images/playlists.svg" alt="Spotify Enhanced playlist actions showing playlist artwork and play state" width="420"> |
+| Play/Pause mirrors the plugin render: album artwork fills the button, a large pause icon appears while playing, and only the song title is shown. | Playlist actions can show playlist artwork, saved/playing/paused state and provide quick access to fixed or browsable playlists.  |
 
 ## Overview
 
@@ -38,36 +34,36 @@ Spotify Enhanced is not affiliated with, endorsed by, or sponsored by Spotify. S
 
 ## Highlights
 
-| Feature | What it gives you |
-| --- | --- |
-| Now Playing render | Play/Pause can show album artwork, a large pause overlay and the current song title instead of a static icon. |
-| Fixed playlist button | Pick a playlist once, then use one button to play or pause it. The button can show playlist artwork and state. |
-| Playlist browser | Use the encoder to rotate through your Spotify playlists and press to play the selected one. |
-| Encoder playback control | Press for play/pause, rotate for previous/next track. |
-| Encoder volume control | Press to mute, rotate to adjust volume by a configurable step. |
-| Local setup guide | The Spotify Developer App guide is bundled with the plugin and opens from the settings panel. |
-| Multi-account support | Add more than one Spotify account and choose which one an action should use. |
-| Safer local storage | Access tokens, refresh tokens and Client Secret are stored locally with AES-256-GCM encryption. |
+| Feature                  | What it gives you                                                                                              |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| Now Playing render       | Play/Pause can show album artwork, a large pause overlay and the current song title instead of a static icon.  |
+| Fixed playlist button    | Pick a playlist once, then use one button to play or pause it. The button can show playlist artwork and state. |
+| Playlist browser         | Use the encoder to rotate through your Spotify playlists and press to play the selected one.                   |
+| Encoder playback control | Press for play/pause, rotate for previous/next track.                                                          |
+| Encoder volume control   | Press to mute, rotate to adjust volume by a configurable step.                                                 |
+| Local setup guide        | The Spotify Developer App guide is bundled with the plugin and opens from the settings panel.                  |
+| Multi-account support    | Add more than one Spotify account and choose which one an action should use.                                   |
+| Safer local storage      | Access tokens, refresh tokens and Client Secret are stored locally with AES-256-GCM encryption.                |
 
 ## Actions
 
-| Action | Controller | What it does |
-| --- | --- | --- |
-| Play/Pause | Keypad | Toggles playback on the selected or active Spotify device and can show the current track. |
-| Previous Track | Keypad | Plays the previous track. |
-| Next Track | Keypad | Skips to the next track. |
-| Toggle Shuffle | Keypad | Toggles Spotify shuffle mode. |
-| Toggle Repeat | Keypad | Cycles repeat between context, track and off. |
-| Mute Volume | Keypad | Toggles Spotify volume between muted and the last known volume. |
-| Volume Set | Keypad | Sets volume to a configured percentage. |
-| Volume Up | Keypad | Raises volume by 10 percent. |
-| Volume Down | Keypad | Lowers volume by 10 percent. |
-| Toggle Track Like | Keypad | Adds or removes the current track from liked songs. |
-| Play Control | Encoder | Press to play/pause, rotate for previous/next. |
-| Volume Control | Encoder | Press to mute, rotate to adjust volume by a configured step. |
-| My Playlists | Encoder | Rotate through playlists and press to play the selected playlist. |
-| New Releases | Encoder | Rotate through Spotify new releases and press to play the selected album. |
-| Play Playlist | Keypad | Plays or pauses a fixed playlist selected in the settings panel. |
+| Action            | Controller | What it does                                                                              |
+| ----------------- | ---------- | ----------------------------------------------------------------------------------------- |
+| Play/Pause        | Keypad     | Toggles playback on the selected or active Spotify device and can show the current track. |
+| Previous Track    | Keypad     | Plays the previous track.                                                                 |
+| Next Track        | Keypad     | Skips to the next track.                                                                  |
+| Toggle Shuffle    | Keypad     | Toggles Spotify shuffle mode.                                                             |
+| Toggle Repeat     | Keypad     | Cycles repeat between context, track and off.                                             |
+| Mute Volume       | Keypad     | Toggles Spotify volume between muted and the last known volume.                           |
+| Volume Set        | Keypad     | Sets volume to a configured percentage.                                                   |
+| Volume Up         | Keypad     | Raises volume by 10 percent.                                                              |
+| Volume Down       | Keypad     | Lowers volume by 10 percent.                                                              |
+| Toggle Track Like | Keypad     | Adds or removes the current track from liked songs.                                       |
+| Play Control      | Encoder    | Press to play/pause, rotate for previous/next.                                            |
+| Volume Control    | Encoder    | Press to mute, rotate to adjust volume by a configured step.                              |
+| My Playlists      | Encoder    | Rotate through playlists and press to play the selected playlist.                         |
+| New Releases      | Encoder    | Rotate through Spotify new releases and press to play the selected album.                 |
+| Play Playlist     | Keypad     | Plays or pauses a fixed playlist selected in the settings panel.                          |
 
 ## Requirements
 
