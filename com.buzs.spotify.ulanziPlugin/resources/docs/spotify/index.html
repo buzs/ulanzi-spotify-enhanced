@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spotify Enhanced Setup Guide</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="guide-shell">
+    <header class="hero">
+      <div class="mark" aria-hidden="true">
+        <span></span>
+      </div>
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">Local setup guide</p>
+        <h1 data-i18n="title">Connect Spotify Enhanced</h1>
+        <p class="lead" data-i18n="lead">Create your own Spotify Developer app and connect it to the Ulanzi D200 plugin.</p>
+      </div>
+      <label class="language-picker">
+        <span data-i18n="language">Language</span>
+        <select id="language"></select>
+      </label>
+    </header>
+
+    <section class="notice">
+      <strong data-i18n="premiumTitle">Spotify Premium is required.</strong>
+      <span data-i18n="premiumBody">Spotify Web API playback control only works with Premium accounts.</span>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="redirectTitle">Redirect URI</h2>
+      <p data-i18n="redirectIntro">Add this URI to your Spotify Developer app:</p>
+      <div class="copy-row">
+        <code id="redirect-uri">http://127.0.0.1:30901/oauth2callback</code>
+        <button id="copy-redirect" type="button" data-i18n="copy">Copy</button>
+      </div>
+      <p class="muted" data-i18n="redirectFallback">If the Ulanzi settings panel shows a different URI, use the exact URI shown there instead.</p>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="stepsTitle">Create the Spotify app</h2>
+      <ol class="steps" id="steps"></ol>
+      <p><a class="external" href="https://developer.spotify.com/dashboard/" target="_blank" rel="noreferrer" data-i18n="dashboard">Open Spotify Developer Dashboard</a></p>
+    </section>
+
+    <section class="card two-column">
+      <div>
+        <h2 data-i18n="connectTitle">Connect in Ulanzi</h2>
+        <ol class="steps" id="connect-steps"></ol>
+      </div>
+      <div>
+        <h2 data-i18n="privacyTitle">Privacy</h2>
+        <p data-i18n="privacyBody">Credentials are stored locally in the installed plugin folder. Tokens and Client Secret are encrypted with AES-256-GCM.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="troubleTitle">Troubleshooting</h2>
+      <ul class="checks" id="troubleshooting"></ul>
+    </section>
+
+    <footer>
+      <p data-i18n="footer">This page is bundled with Spotify Enhanced and works offline. Spotify trademarks belong to Spotify AB.</p>
+    </footer>
+  </main>
+  <script src="./guide.js"></script>
+</body>
+</html>

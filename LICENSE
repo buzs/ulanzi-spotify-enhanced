@@ -1,0 +1,17 @@
+Spotify Enhanced Public Distribution License
+
+Copyright (c) 2026 Buzs. All rights reserved.
+
+This public repository distributes the built Spotify Enhanced Ulanzi plugin package only. The original source code, build scripts and unpublished development assets are not included and are not licensed for copying, modification or redistribution.
+
+You may download, install and use the built Spotify Enhanced plugin package for personal use with compatible Ulanzi hardware and software.
+
+You may reference this repository for store/community review and link to the official GitHub Releases for downloads.
+
+You may not claim ownership of Spotify Enhanced, sell the plugin, repackage it as your own work, or redistribute modified versions without permission from the author.
+
+Spotify Enhanced is not affiliated with, endorsed by, or sponsored by Spotify. Spotify trademarks and branding belong to Spotify AB.
+
+Third-party components are distributed under their own licenses. This includes, but is not limited to, the Ulanzi SDK/runtime files and Spotify Web API services.
+
+The plugin is provided as-is, without warranty of any kind. Use it at your own risk.

@@ -1,0 +1,375 @@
+{
+  "Author": "Buzs",
+  "Name": "Spotify Enhanced",
+  "Description": "Spotify playback, volume, playlist and library controls",
+  "Icon": "resources/assets/btn_spotify_enc_logo.svg",
+  "Version": "2.0.0",
+  "Category": "Spotify",
+  "CategoryIcon": "resources/assets/btn_spotify_enc_logo.svg",
+  "CodePath": "plugin/app.js",
+  "Type": "JavaScript",
+  "PrivateAPI": true,
+  "UUID": "com.buzs.ulanzideck.spotify",
+  "Actions": [
+    {
+      "Name": "Play/Pause",
+      "Icon": "resources/assets/btn_spotify_enc_play_pause.svg",
+      "PropertyInspectorPath": "property-inspectors/play/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Play",
+          "Image": "resources/assets/btn_spotify_enc_play.svg"
+        },
+        {
+          "Name": "Pause",
+          "Image": "resources/assets/btn_spotify_enc_pause.svg"
+        }
+      ],
+      "Tooltip": "Play/Pause on current device",
+      "UUID": "com.buzs.ulanzideck.spotify.play",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Previous Track",
+      "Icon": "resources/assets/btn_spotify_enc_prev.svg",
+      "PropertyInspectorPath": "property-inspectors/previous/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Prev",
+          "Image": "resources/assets/btn_spotify_enc_prev.svg"
+        }
+      ],
+      "Tooltip": "Play previous track",
+      "UUID": "com.buzs.ulanzideck.spotify.previous",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Next Track",
+      "Icon": "resources/assets/btn_spotify_enc_next.svg",
+      "PropertyInspectorPath": "property-inspectors/next/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Next",
+          "Image": "resources/assets/btn_spotify_enc_next.svg"
+        }
+      ],
+      "Tooltip": "Play Next track",
+      "UUID": "com.buzs.ulanzideck.spotify.next",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Toggle Shuffle",
+      "Icon": "resources/assets/btn_spotify_enc_shuffle.svg",
+      "PropertyInspectorPath": "property-inspectors/shuffle/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "On",
+          "Image": "resources/assets/btn_spotify_enc_shuffle.svg"
+        },
+        {
+          "Name": "Off",
+          "Image": "resources/assets/btn_spotify_enc_shuffle_off.svg"
+        }
+      ],
+      "Tooltip": "Toggle shuffle on current device",
+      "UUID": "com.buzs.ulanzideck.spotify.shuffle",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Toggle Repeat",
+      "Icon": "resources/assets/btn_spotify_enc_repeat.svg",
+      "PropertyInspectorPath": "property-inspectors/repeat/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Context",
+          "Image": "resources/assets/btn_spotify_enc_repeat_context.svg"
+        },
+        {
+          "Name": "Track",
+          "Image": "resources/assets/btn_spotify_enc_repeat_track.svg"
+        },
+        {
+          "Name": "Off",
+          "Image": "resources/assets/btn_spotify_enc_repeat_off.svg"
+        }
+      ],
+      "Tooltip": "Toggle repeat on current device",
+      "UUID": "com.buzs.ulanzideck.spotify.repeat",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Mute Volume",
+      "Icon": "resources/assets/btn_spotify_enc_mute.svg",
+      "PropertyInspectorPath": "property-inspectors/volume-mute/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Volume",
+          "Image": "resources/assets/btn_spotify_enc_volume.svg"
+        },
+        {
+          "Name": "Mute",
+          "Image": "resources/assets/btn_spotify_enc_mute.svg"
+        }
+      ],
+      "Tooltip": "Mute or restore Spotify volume",
+      "UUID": "com.buzs.ulanzideck.spotify.volumemute",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Volume Set",
+      "Icon": "resources/assets/btn_spotify_enc_volume_set.svg",
+      "PropertyInspectorPath": "property-inspectors/volume-set/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Set",
+          "Image": "resources/assets/btn_spotify_enc_volume_set.svg"
+        }
+      ],
+      "Tooltip": "Set volume on current device",
+      "UUID": "com.buzs.ulanzideck.spotify.volumeset",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Volume Up",
+      "Icon": "resources/assets/btn_spotify_enc_volume_up.svg",
+      "PropertyInspectorPath": "property-inspectors/volume-up/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Up",
+          "Image": "resources/assets/btn_spotify_enc_volume_up.svg"
+        }
+      ],
+      "Tooltip": "Increase volume on current device",
+      "UUID": "com.buzs.ulanzideck.spotify.volumeup",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Volume Down",
+      "Icon": "resources/assets/btn_spotify_enc_volume_down.svg",
+      "PropertyInspectorPath": "property-inspectors/volume-down/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Down",
+          "Image": "resources/assets/btn_spotify_enc_volume_down.svg"
+        }
+      ],
+      "Tooltip": "Decrease volume on current device",
+      "UUID": "com.buzs.ulanzideck.spotify.volumedown",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Toggle Track Like",
+      "Icon": "resources/assets/btn_spotify_enc_like.svg",
+      "PropertyInspectorPath": "property-inspectors/track-like/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Like",
+          "Image": "resources/assets/btn_spotify_enc_like.svg"
+        },
+        {
+          "Name": "Unlike",
+          "Image": "resources/assets/btn_spotify_enc_unlike.svg"
+        }
+      ],
+      "Tooltip": "Toggle like on current track",
+      "UUID": "com.buzs.ulanzideck.spotify.tracklike",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Play Control",
+      "Icon": "resources/assets/btn_spotify_enc_play_pause.svg",
+      "PropertyInspectorPath": "property-inspectors/play-controller/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Play",
+          "Image": "resources/assets/btn_spotify_enc_play.svg"
+        },
+        {
+          "Name": "Pause",
+          "Image": "resources/assets/btn_spotify_enc_pause.svg"
+        },
+        {
+          "Name": "Next",
+          "Image": "resources/assets/btn_spotify_enc_next.svg"
+        },
+        {
+          "Name": "Previous",
+          "Image": "resources/assets/btn_spotify_enc_prev.svg"
+        }
+      ],
+      "Tooltip": "Play/Pause/Next/Previous on current device",
+      "UUID": "com.buzs.ulanzideck.spotify.playcontroller",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Encoder"
+      ],
+      "Devices": [],
+      "Encoder": {
+        "layout": "$UA1"
+      }
+    },
+    {
+      "Name": "Volume Control",
+      "Icon": "resources/assets/btn_spotify_enc_volume.svg",
+      "PropertyInspectorPath": "property-inspectors/volume-controller/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Volume",
+          "Image": "resources/assets/btn_spotify_enc_volume.svg"
+        },
+        {
+          "Name": "Mute",
+          "Image": "resources/assets/btn_spotify_enc_mute.svg"
+        }
+      ],
+      "Tooltip": "Adjust volume by rotation, toggle mute by press",
+      "UUID": "com.buzs.ulanzideck.spotify.volumecontroller",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Encoder"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "My Playlists",
+      "Icon": "resources/assets/btn_spotify_enc_playlist.svg",
+      "PropertyInspectorPath": "property-inspectors/my-playlists/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Play",
+          "Image": "resources/assets/btn_spotify_enc_play.svg"
+        }
+      ],
+      "Tooltip": "Quick access to your Spotify playlists, rotate to browse, press to play",
+      "UUID": "com.buzs.ulanzideck.spotify.myplaylists",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Encoder"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "New Releases",
+      "Icon": "resources/assets/btn_spotify_enc_new_release.svg",
+      "PropertyInspectorPath": "property-inspectors/new-releases/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Play",
+          "Image": "resources/assets/btn_spotify_enc_new_release.svg"
+        }
+      ],
+      "Tooltip": "Browse and play new releases on Spotify",
+      "UUID": "com.buzs.ulanzideck.spotify.newreleases",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Encoder"
+      ],
+      "Devices": []
+    },
+    {
+      "Name": "Play Playlist",
+      "Icon": "resources/assets/btn_spotify_enc_playlist.svg",
+      "PropertyInspectorPath": "property-inspectors/play-playlist/index.html",
+      "state": 0,
+      "States": [
+        {
+          "Name": "Play",
+          "Image": "resources/assets/btn_spotify_enc_play.svg"
+        },
+        {
+          "Name": "Pause",
+          "Image": "resources/assets/btn_spotify_enc_pause.svg"
+        }
+      ],
+      "Tooltip": "Play/Pause a fixed Spotify playlist",
+      "UUID": "com.buzs.ulanzideck.spotify.playplaylist",
+      "SupportedInMultiActions": false,
+      "DisableAutomaticStates": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Devices": []
+    }
+  ],
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinVersion": "2.1.0"
+  }
+}
