@@ -47,23 +47,23 @@ Spotify Enhanced is not affiliated with, endorsed by, or sponsored by Spotify. S
 
 ## Actions
 
-| Action            | Controller | What it does                                                                              |
-| ----------------- | ---------- | ----------------------------------------------------------------------------------------- |
-| Play/Pause        | Keypad     | Toggles playback on the selected or active Spotify device and can show the current track. |
-| Previous Track    | Keypad     | Plays the previous track.                                                                 |
-| Next Track        | Keypad     | Skips to the next track.                                                                  |
-| Toggle Shuffle    | Keypad     | Toggles Spotify shuffle mode.                                                             |
-| Toggle Repeat     | Keypad     | Cycles repeat between context, track and off.                                             |
-| Mute Volume       | Keypad     | Toggles Spotify volume between muted and the last known volume.                           |
-| Volume Set        | Keypad     | Sets volume to a configured percentage.                                                   |
-| Volume Up         | Keypad     | Raises volume by 10 percent.                                                              |
-| Volume Down       | Keypad     | Lowers volume by 10 percent.                                                              |
-| Toggle Track Like | Keypad     | Adds or removes the current track from liked songs.                                       |
-| Play Control      | Encoder    | Press to play/pause, rotate for previous/next.                                            |
-| Volume Control    | Encoder    | Press to mute, rotate to adjust volume by a configured step.                              |
-| My Playlists      | Encoder    | Rotate through playlists and press to play the selected playlist.                         |
-| New Releases      | Encoder    | Rotate through Spotify new releases and press to play the selected album.                 |
-| Play Playlist     | Keypad     | Plays or pauses a fixed playlist selected in the settings panel.                          |
+| Button                                                                                                                                  | Action            | Controller | What it does                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ---------- | ----------------------------------------------------------------------------------------- |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_play_pause.svg" alt="Play/Pause button" width="48">            | Play/Pause        | Keypad     | Toggles playback on the selected or active Spotify device and can show the current track. |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_prev.svg" alt="Previous Track button" width="48">              | Previous Track    | Keypad     | Plays the previous track.                                                                 |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_next.svg" alt="Next Track button" width="48">                  | Next Track        | Keypad     | Skips to the next track.                                                                  |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_shuffle.svg" alt="Toggle Shuffle button" width="48">           | Toggle Shuffle    | Keypad     | Toggles Spotify shuffle mode.                                                             |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_repeat.svg" alt="Toggle Repeat button" width="48">             | Toggle Repeat     | Keypad     | Cycles repeat between context, track and off.                                             |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_mute.svg" alt="Mute Volume button" width="48">                 | Mute Volume       | Keypad     | Toggles Spotify volume between muted and the last known volume.                           |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_volume_set.svg" alt="Volume Set button" width="48">            | Volume Set        | Keypad     | Sets volume to a configured percentage.                                                   |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_volume_up.svg" alt="Volume Up button" width="48">              | Volume Up         | Keypad     | Raises volume by 10 percent.                                                              |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_volume_down.svg" alt="Volume Down button" width="48">          | Volume Down       | Keypad     | Lowers volume by 10 percent.                                                              |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_like.svg" alt="Toggle Track Like button" width="48">           | Toggle Track Like | Keypad     | Adds or removes the current track from liked songs.                                       |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_play_pause.svg" alt="Play Control encoder button" width="48">  | Play Control      | Encoder    | Press to play/pause, rotate for previous/next.                                            |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_volume.svg" alt="Volume Control encoder button" width="48">    | Volume Control    | Encoder    | Press to mute, rotate to adjust volume by a configured step.                              |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_playlist.svg" alt="My Playlists encoder button" width="48">    | My Playlists      | Encoder    | Rotate through playlists and press to play the selected playlist.                         |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_new_release.svg" alt="New Releases encoder button" width="48"> | New Releases      | Encoder    | Rotate through Spotify new releases and press to play the selected album.                 |
+| <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_playlist.svg" alt="Play Playlist button" width="48">           | Play Playlist     | Keypad     | Plays or pauses a fixed playlist selected in the settings panel.                          |
 
 ## Requirements
 
