@@ -1,0 +1,17 @@
+{
+  "cover": "com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_logo.svg",
+  "screenshots": [
+    "com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_logo.svg",
+    "docs/images/now-playing.svg",
+    "docs/images/playlists.svg"
+  ],
+  "longDescription": "Spotify playback, volume, playlist and library controls",
+  "deviceTypes": [
+    "deck",
+    "dial"
+  ],
+  "tags": [
+    "music",
+    "spotify"
+  ]
+}
