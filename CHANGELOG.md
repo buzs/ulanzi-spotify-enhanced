@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.3
+
+- Fixed paused Play/Pause buttons keeping the previous album artwork instead of restoring the manifest play icon.
+- Kept the fix compatible with the currently available Ulanzi software protocol.
+
 ## 2.0.2
 
 - Fixed static manifest icon updates so host custom icons are not replaced on plugin restart.
