@@ -3,7 +3,7 @@
   "Name": "Spotify Enhanced",
   "Description": "Spotify playback, volume, playlist and library controls",
   "Icon": "resources/assets/btn_spotify_enc_logo.svg",
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "Category": "Spotify",
   "CategoryIcon": "resources/assets/btn_spotify_enc_logo.svg",
   "CodePath": "plugin/app.js",
