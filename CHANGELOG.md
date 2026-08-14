@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.2
+
+- Fixed static manifest icon updates so host custom icons are not replaced on plugin restart.
+- Kept compatibility with the currently available Ulanzi software protocol.
+
 ## 2.0.1
 
 - Fixed D200X encoder rotation for playback, volume, playlist and new-release actions.
