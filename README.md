@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_logo.svg" alt="Spotify Enhanced" width="180">
+  <img src="docs/images/banner-01.png" alt="Spotify Enhanced" width="180">
 </p>
 
 <h1 align="center">Spotify Enhanced for Ulanzi D200</h1>
