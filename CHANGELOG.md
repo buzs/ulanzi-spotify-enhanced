@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.4
+
+- Fixed Like/Unlike for Spotify Development Mode apps using the new library API, with a fallback to the legacy endpoints.
+- A failed status lookup no longer marks a track as not liked.
+- Reduced Spotify API traffic: device polling every 15s, one library check per track, and Retry-After is honored.
+
 ## 2.0.3
 
 - Fixed paused Play/Pause buttons keeping the previous album artwork instead of restoring the manifest play icon.
