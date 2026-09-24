@@ -1,9 +1,9 @@
 {
-  "cover": "com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_logo.svg",
+  "cover": "docs/images/banner-01.png",
   "screenshots": [
-    "com.buzs.spotify.ulanziPlugin/resources/assets/btn_spotify_enc_logo.svg",
-    "docs/images/now-playing.svg",
-    "docs/images/playlists.svg"
+    "docs/images/banner-01.png",
+    "docs/images/banner-02.png",
+    "docs/images/banner-03.png"
   ],
   "longDescription": "Spotify playback, volume, playlist and library controls",
   "deviceTypes": [
