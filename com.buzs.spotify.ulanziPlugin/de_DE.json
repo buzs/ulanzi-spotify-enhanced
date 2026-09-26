@@ -1,5 +1,5 @@
 {
-  "Description": "Spotify-Steuerung für Wiedergabe, Lautstärke, Playlists und Bibliothek",
+  "Description": "Steuere Spotify mit deinem Ulanzi-Deck samt Live-Albumcover: Play/Pause, Titelwechsel, Zufall, Wiederholen, Lautstärke, Lieblingssongs, feste Playlist-Tasten und Drehregler zum Durchblättern von Playlists und Neuerscheinungen. Mehrere Konten.",
   "Name": "Spotify Enhanced",
   "Localization": {
     "Account": "Konto",

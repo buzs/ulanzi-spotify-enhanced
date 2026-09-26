@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-2.0.4-1db954?style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0.5-1db954?style=for-the-badge">
   <img alt="Ulanzi D200" src="https://img.shields.io/badge/Ulanzi-D200-111827?style=for-the-badge">
   <img alt="Windows and macOS" src="https://img.shields.io/badge/platform-Windows%2010%2B%20%7C%20macOS%2010.11%2B-2f81f7?style=for-the-badge">
   <img alt="Node.js" src="https://img.shields.io/badge/runtime-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
@@ -95,10 +95,10 @@ The plugin includes a local multilingual setup guide. Open any Spotify Enhanced 
 Default redirect URI:
 
 ```text
-http://127.0.0.1:30901/oauth2callback
+http://127.0.0.1:30931/oauth2callback
 ```
 
-If the settings panel shows a different redirect URI, add the exact URI shown in the panel to your Spotify Developer app before clicking `Connect`. This only happens when port `30901` is already used by another local application.
+If the settings panel shows a different redirect URI, add the exact URI shown in the panel to your Spotify Developer app before clicking `Connect`. This only happens when port `30931` is already used by another local application.
 
 Quick setup:
 

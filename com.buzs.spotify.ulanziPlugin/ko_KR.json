@@ -1,5 +1,5 @@
 {
-  "Description": "Spotify 재생, 볼륨, 플레이리스트 및 라이브러리 제어",
+  "Description": "앨범 아트를 실시간으로 보여주며 Ulanzi 장치로 Spotify를 제어하세요: 재생/일시정지, 곡 이동, 셔플, 반복, 볼륨, 좋아요 표시한 곡, 고정 플레이리스트 버튼, 다이얼로 플레이리스트와 최신 발매 탐색. 여러 계정 지원.",
   "Name": "Spotify Enhanced",
   "Localization": {
     "Account": "계정",

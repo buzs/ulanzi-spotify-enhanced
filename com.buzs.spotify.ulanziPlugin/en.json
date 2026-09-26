@@ -1,5 +1,5 @@
 {
-  "Description": "Spotify playback, volume, playlist and library controls",
+  "Description": "Control Spotify from your Ulanzi deck with live album artwork: play/pause, tracks, shuffle, repeat, volume, liked songs, fixed playlist buttons and encoder browsing of your playlists and new releases. Supports multiple accounts.",
   "Name": "Spotify Enhanced",
   "Localization": {
     "Account": "Account",

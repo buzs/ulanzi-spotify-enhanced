@@ -1,5 +1,5 @@
 {
-  "Description": "Spotify の再生、音量、プレイリスト、ライブラリ操作",
+  "Description": "アルバムアートをリアルタイム表示しながら Ulanzi デバイスで Spotify を操作：再生／一時停止、曲送り、シャッフル、リピート、音量、お気に入り、プレイリスト専用ボタン、ダイヤルでプレイリストと新作をブラウズ。複数アカウント対応。",
   "Name": "Spotify Enhanced",
   "Localization": {
     "Account": "アカウント",

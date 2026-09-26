@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.5
+
+- Fixed a conflict with the official Ulanzi Spotify plugin: both plugins used local port `30901`, which could stop the official plugin. Spotify Enhanced now uses `30931`, so both plugins can run side by side.
+- Already connected accounts keep working. To connect a new account, add `http://127.0.0.1:30931/oauth2callback` to your Spotify Developer app (the settings panel always shows the exact redirect URI).
+
 ## 2.0.4
 
 - Fixed Like/Unlike for Spotify Development Mode apps using the new library API, with a fallback to the legacy endpoints.

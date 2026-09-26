@@ -1,4 +1,4 @@
-const REDIRECT_URI = "http://127.0.0.1:30901/oauth2callback";
+const REDIRECT_URI = "http://127.0.0.1:30931/oauth2callback";
 
 const localeNames = {
   en: "English",

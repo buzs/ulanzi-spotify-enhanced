@@ -1,5 +1,5 @@
 {
-  "Description": "Spotify 播放、音量、播放列表和资料库控制",
+  "Description": "在 Ulanzi 设备上控制 Spotify，并实时显示专辑封面：播放/暂停、切歌、随机、循环、音量、收藏歌曲、固定歌单按键，以及用旋钮浏览你的歌单和新发行专辑。支持多个账户。",
   "Name": "Spotify Enhanced",
   "Localization": {
     "Account": "账号",

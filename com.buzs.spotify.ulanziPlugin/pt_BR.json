@@ -1,5 +1,5 @@
 {
-  "Description": "Controles de reprodução, volume, playlists e biblioteca do Spotify",
+  "Description": "Controle o Spotify pelo seu deck Ulanzi com a capa do álbum ao vivo: play/pause, faixas, aleatório, repetir, volume, músicas curtidas, botões de playlist fixa e encoders para navegar pelas suas playlists e lançamentos. Suporta várias contas.",
   "Name": "Spotify Enhanced",
   "Localization": {
     "Account": "Conta",
