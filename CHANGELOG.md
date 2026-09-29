@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.6
+
+- Action names and tooltips in the Ulanzi Studio plugin bar are now translated into all supported languages.
+- The settings panel (device, account, playlist, volume, connect and guide) now follows the Ulanzi Studio language instead of showing English labels.
+- Button messages such as "Connect your Spotify account" are translated too.
+
 ## 2.0.5
 
 - Fixed a conflict with the official Ulanzi Spotify plugin: both plugins used local port `30901`, which could stop the official plugin. Spotify Enhanced now uses `30931`, so both plugins can run side by side.

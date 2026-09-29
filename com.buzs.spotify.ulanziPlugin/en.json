@@ -1,34 +1,66 @@
 {
   "Description": "Control Spotify from your Ulanzi deck with live album artwork: play/pause, tracks, shuffle, repeat, volume, liked songs, fixed playlist buttons and encoder browsing of your playlists and new releases. Supports multiple accounts.",
   "Name": "Spotify Enhanced",
-  "Localization": {
-    "Account": "Account",
-    "Add account": "Add account",
-    "Confirm": "Confirm",
-    "Connect": "Connect",
-    "Device": "Device",
-    "Disconnect": "Disconnect",
-    "Open Spotify Web Or App": "Open Spotify Web Or App",
-    "Guide Title": "Create a Spotify app and connect your account.",
-    "Guide Content": "Provide the Client ID and Client Secret for your Spotify account.",
-    "Guide Link": "Click here.",
-    "Volume Down": "Volume Down",
-    "Volume Up": "Volume Up",
-    "Up 10% Volume": "Up 10% Volume",
-    "Down 10% Volume": "Down 10% Volume",
-    "Volume Value": "Volume Value",
-    "Set Volume To The Selected Value": "Set Volume To The Selected Value",
-    "Toggle Shuffle Mode": "Toggle Shuffle Mode",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Toggle Repeat Mode: OFF | TRACK | CONTEXT",
-    "Action": "Action",
-    "Volume Step": "Volume Step",
-    "Playlist": "Playlist",
-    "Play Playlist": "Play Playlist",
-    "Select a playlist": "Select a playlist",
-    "Loading playlists...": "Loading playlists...",
-    "No playlist selected": "No playlist selected",
-    "Playlist not configured": "Playlist not configured",
-    "Configure the playlist in the settings panel": "Configure the playlist in the settings panel",
-    "Now playing": "Now playing"
-  }
+  "Actions": [
+    {
+      "Name": "Play/Pause",
+      "Tooltip": "Play/Pause on current device"
+    },
+    {
+      "Name": "Previous Track",
+      "Tooltip": "Play previous track"
+    },
+    {
+      "Name": "Next Track",
+      "Tooltip": "Play Next track"
+    },
+    {
+      "Name": "Toggle Shuffle",
+      "Tooltip": "Toggle shuffle on current device"
+    },
+    {
+      "Name": "Toggle Repeat",
+      "Tooltip": "Toggle repeat on current device"
+    },
+    {
+      "Name": "Mute Volume",
+      "Tooltip": "Mute or restore Spotify volume"
+    },
+    {
+      "Name": "Volume Set",
+      "Tooltip": "Set volume on current device"
+    },
+    {
+      "Name": "Volume Up",
+      "Tooltip": "Increase volume on current device"
+    },
+    {
+      "Name": "Volume Down",
+      "Tooltip": "Decrease volume on current device"
+    },
+    {
+      "Name": "Toggle Track Like",
+      "Tooltip": "Toggle like on current track"
+    },
+    {
+      "Name": "Play Control",
+      "Tooltip": "Play/Pause/Next/Previous on current device"
+    },
+    {
+      "Name": "Volume Control",
+      "Tooltip": "Adjust volume by rotation, toggle mute by press"
+    },
+    {
+      "Name": "My Playlists",
+      "Tooltip": "Quick access to your Spotify playlists, rotate to browse, press to play"
+    },
+    {
+      "Name": "New Releases",
+      "Tooltip": "Browse and play new releases on Spotify"
+    },
+    {
+      "Name": "Play Playlist",
+      "Tooltip": "Play/Pause a fixed Spotify playlist"
+    }
+  ]
 }

@@ -1,34 +1,66 @@
 {
   "Description": "在 Ulanzi 设备上控制 Spotify，并实时显示专辑封面：播放/暂停、切歌、随机、循环、音量、收藏歌曲、固定歌单按键，以及用旋钮浏览你的歌单和新发行专辑。支持多个账户。",
   "Name": "Spotify Enhanced",
-  "Localization": {
-    "Account": "账号",
-    "Add account": "添加账号",
-    "Confirm": "确认",
-    "Connect": "连接",
-    "Device": "设备",
-    "Disconnect": "断开连接",
-    "Open Spotify Web Or App": "打开 Spotify 网页版或应用",
-    "Guide Title": "创建 Spotify 应用并连接你的账号。",
-    "Guide Content": "输入 Spotify 账号的 Client ID 和 Client Secret。",
-    "Guide Link": "点击这里。",
-    "Volume Down": "降低音量",
-    "Volume Up": "提高音量",
-    "Up 10% Volume": "音量提高 10%",
-    "Down 10% Volume": "音量降低 10%",
-    "Volume Value": "音量值",
-    "Set Volume To The Selected Value": "将音量设为所选值",
-    "Toggle Shuffle Mode": "切换随机播放",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "切换重复: 关闭 | 单曲 | 上下文",
-    "Action": "操作",
-    "Volume Step": "音量步长",
-    "Playlist": "播放列表",
-    "Play Playlist": "播放播放列表",
-    "Select a playlist": "选择播放列表",
-    "Loading playlists...": "正在加载播放列表...",
-    "No playlist selected": "未选择播放列表",
-    "Playlist not configured": "播放列表未配置",
-    "Configure the playlist in the settings panel": "在设置面板中配置播放列表",
-    "Now playing": "正在播放"
-  }
+  "Actions": [
+    {
+      "Name": "播放/暂停",
+      "Tooltip": "在当前设备上播放/暂停"
+    },
+    {
+      "Name": "上一首",
+      "Tooltip": "播放上一首"
+    },
+    {
+      "Name": "下一首",
+      "Tooltip": "播放下一首"
+    },
+    {
+      "Name": "切换随机播放",
+      "Tooltip": "在当前设备上切换随机播放"
+    },
+    {
+      "Name": "切换重复播放",
+      "Tooltip": "在当前设备上切换重复播放"
+    },
+    {
+      "Name": "静音",
+      "Tooltip": "静音或恢复 Spotify 音量"
+    },
+    {
+      "Name": "设置音量",
+      "Tooltip": "在当前设备上设置音量"
+    },
+    {
+      "Name": "调高音量",
+      "Tooltip": "在当前设备上调高音量"
+    },
+    {
+      "Name": "调低音量",
+      "Tooltip": "在当前设备上调低音量"
+    },
+    {
+      "Name": "切换喜欢",
+      "Tooltip": "喜欢或取消喜欢当前歌曲"
+    },
+    {
+      "Name": "播放控制器",
+      "Tooltip": "在当前设备上播放/暂停/下一首/上一首"
+    },
+    {
+      "Name": "音量控制器",
+      "Tooltip": "旋转调节音量，按下切换静音"
+    },
+    {
+      "Name": "我的播放列表",
+      "Tooltip": "快速访问你的 Spotify 播放列表，旋转浏览，按下播放"
+    },
+    {
+      "Name": "新发行",
+      "Tooltip": "浏览并播放 Spotify 上的新发行音乐"
+    },
+    {
+      "Name": "播放播放列表",
+      "Tooltip": "播放/暂停指定的 Spotify 播放列表"
+    }
+  ]
 }

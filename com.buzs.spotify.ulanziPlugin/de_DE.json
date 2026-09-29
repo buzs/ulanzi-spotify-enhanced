@@ -1,34 +1,66 @@
 {
   "Description": "Steuere Spotify mit deinem Ulanzi-Deck samt Live-Albumcover: Play/Pause, Titelwechsel, Zufall, Wiederholen, Lautstärke, Lieblingssongs, feste Playlist-Tasten und Drehregler zum Durchblättern von Playlists und Neuerscheinungen. Mehrere Konten.",
   "Name": "Spotify Enhanced",
-  "Localization": {
-    "Account": "Konto",
-    "Add account": "Konto hinzufügen",
-    "Confirm": "Bestätigen",
-    "Connect": "Verbinden",
-    "Device": "Gerät",
-    "Disconnect": "Trennen",
-    "Open Spotify Web Or App": "Spotify Web oder App öffnen",
-    "Guide Title": "Erstelle eine Spotify-App und verbinde dein Konto.",
-    "Guide Content": "Gib die Client ID und das Client Secret deines Spotify-Kontos ein.",
-    "Guide Link": "Hier klicken.",
-    "Volume Down": "Leiser",
-    "Volume Up": "Lauter",
-    "Up 10% Volume": "Lautstärke um 10% erhöhen",
-    "Down 10% Volume": "Lautstärke um 10% verringern",
-    "Volume Value": "Lautstärkewert",
-    "Set Volume To The Selected Value": "Lautstärke auf den ausgewählten Wert setzen",
-    "Toggle Shuffle Mode": "Zufallsmodus umschalten",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Wiederholung umschalten: AUS | TITEL | KONTEXT",
-    "Action": "Aktion",
-    "Volume Step": "Lautstärkeschritt",
-    "Playlist": "Playlist",
-    "Play Playlist": "Playlist abspielen",
-    "Select a playlist": "Playlist auswählen",
-    "Loading playlists...": "Playlists werden geladen...",
-    "No playlist selected": "Keine Playlist ausgewählt",
-    "Playlist not configured": "Playlist nicht konfiguriert",
-    "Configure the playlist in the settings panel": "Konfiguriere die Playlist im Einstellungsfenster",
-    "Now playing": "Aktuelle Wiedergabe"
-  }
+  "Actions": [
+    {
+      "Name": "Wiedergabe/Pause",
+      "Tooltip": "Wiedergabe/Pause auf dem aktuellen Gerät"
+    },
+    {
+      "Name": "Vorheriger Titel",
+      "Tooltip": "Vorherigen Titel abspielen"
+    },
+    {
+      "Name": "Nächster Titel",
+      "Tooltip": "Nächsten Titel abspielen"
+    },
+    {
+      "Name": "Zufallswiedergabe umschalten",
+      "Tooltip": "Zufallswiedergabe auf dem aktuellen Gerät umschalten"
+    },
+    {
+      "Name": "Wiederholung umschalten",
+      "Tooltip": "Wiederholung auf dem aktuellen Gerät umschalten"
+    },
+    {
+      "Name": "Stummschalten",
+      "Tooltip": "Spotify-Lautstärke stummschalten oder wiederherstellen"
+    },
+    {
+      "Name": "Lautstärke einstellen",
+      "Tooltip": "Lautstärke auf dem aktuellen Gerät einstellen"
+    },
+    {
+      "Name": "Lauter",
+      "Tooltip": "Lautstärke auf dem aktuellen Gerät erhöhen"
+    },
+    {
+      "Name": "Leiser",
+      "Tooltip": "Lautstärke auf dem aktuellen Gerät verringern"
+    },
+    {
+      "Name": "„Gefällt mir“ umschalten",
+      "Tooltip": "„Gefällt mir“ für aktuellen Titel umschalten"
+    },
+    {
+      "Name": "Wiedergabesteuerung",
+      "Tooltip": "Wiedergabe/Pause/Nächster/Vorheriger auf dem aktuellen Gerät"
+    },
+    {
+      "Name": "Lautstärkeregler",
+      "Tooltip": "Lautstärke durch Drehen anpassen, Stummschaltung durch Drücken umschalten"
+    },
+    {
+      "Name": "Meine Playlists",
+      "Tooltip": "Schnellzugriff auf deine Spotify-Playlists, drehen zum Durchsuchen, drücken zum Abspielen"
+    },
+    {
+      "Name": "Neuerscheinungen",
+      "Tooltip": "Neuerscheinungen auf Spotify durchsuchen und abspielen"
+    },
+    {
+      "Name": "Playlist abspielen",
+      "Tooltip": "Eine feste Spotify-Playlist abspielen/pausieren"
+    }
+  ]
 }

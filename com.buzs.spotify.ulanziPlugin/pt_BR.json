@@ -1,34 +1,66 @@
 {
   "Description": "Controle o Spotify pelo seu deck Ulanzi com a capa do álbum ao vivo: play/pause, faixas, aleatório, repetir, volume, músicas curtidas, botões de playlist fixa e encoders para navegar pelas suas playlists e lançamentos. Suporta várias contas.",
   "Name": "Spotify Enhanced",
-  "Localization": {
-    "Account": "Conta",
-    "Add account": "Adicionar conta",
-    "Confirm": "Confirmar",
-    "Connect": "Conectar",
-    "Device": "Dispositivo",
-    "Disconnect": "Desconectar",
-    "Open Spotify Web Or App": "Abrir Spotify Web ou app",
-    "Guide Title": "Crie um app no Spotify e conecte sua conta.",
-    "Guide Content": "Informe o Client ID e o Client Secret da sua conta Spotify.",
-    "Guide Link": "Clique aqui.",
-    "Volume Down": "Diminuir volume",
-    "Volume Up": "Aumentar volume",
-    "Up 10% Volume": "Aumentar volume em 10%",
-    "Down 10% Volume": "Diminuir volume em 10%",
-    "Volume Value": "Valor do volume",
-    "Set Volume To The Selected Value": "Definir volume para o valor selecionado",
-    "Toggle Shuffle Mode": "Alternar modo aleatório",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "Alternar repetição: desligado | faixa | contexto",
-    "Action": "Ação",
-    "Volume Step": "Passo do volume",
-    "Playlist": "Playlist",
-    "Play Playlist": "Tocar playlist",
-    "Select a playlist": "Selecione uma playlist",
-    "Loading playlists...": "Carregando playlists...",
-    "No playlist selected": "Nenhuma playlist selecionada",
-    "Playlist not configured": "Playlist não configurada",
-    "Configure the playlist in the settings panel": "Configure a playlist no painel de configurações",
-    "Now playing": "Tocando agora"
-  }
+  "Actions": [
+    {
+      "Name": "Reproduzir/Pausar",
+      "Tooltip": "Reproduzir/Pausar no dispositivo atual"
+    },
+    {
+      "Name": "Faixa anterior",
+      "Tooltip": "Tocar a faixa anterior"
+    },
+    {
+      "Name": "Próxima faixa",
+      "Tooltip": "Tocar a próxima faixa"
+    },
+    {
+      "Name": "Alternar aleatório",
+      "Tooltip": "Alternar modo aleatório no dispositivo atual"
+    },
+    {
+      "Name": "Alternar repetição",
+      "Tooltip": "Alternar repetição no dispositivo atual"
+    },
+    {
+      "Name": "Silenciar volume",
+      "Tooltip": "Silenciar ou restaurar o volume do Spotify"
+    },
+    {
+      "Name": "Definir volume",
+      "Tooltip": "Definir o volume no dispositivo atual"
+    },
+    {
+      "Name": "Aumentar volume",
+      "Tooltip": "Aumentar o volume no dispositivo atual"
+    },
+    {
+      "Name": "Diminuir volume",
+      "Tooltip": "Diminuir o volume no dispositivo atual"
+    },
+    {
+      "Name": "Alternar curtida",
+      "Tooltip": "Curtir ou descurtir a faixa atual"
+    },
+    {
+      "Name": "Controle de reprodução",
+      "Tooltip": "Reproduzir/Pausar/Próxima/Anterior no dispositivo atual"
+    },
+    {
+      "Name": "Controle de volume",
+      "Tooltip": "Gire para ajustar o volume, pressione para silenciar"
+    },
+    {
+      "Name": "Minhas playlists",
+      "Tooltip": "Acesso rápido às suas playlists do Spotify, gire para navegar, pressione para tocar"
+    },
+    {
+      "Name": "Lançamentos",
+      "Tooltip": "Navegue e toque os novos lançamentos do Spotify"
+    },
+    {
+      "Name": "Tocar playlist",
+      "Tooltip": "Reproduzir/Pausar uma playlist fixa do Spotify"
+    }
+  ]
 }

@@ -1,34 +1,66 @@
 {
   "Description": "アルバムアートをリアルタイム表示しながら Ulanzi デバイスで Spotify を操作：再生／一時停止、曲送り、シャッフル、リピート、音量、お気に入り、プレイリスト専用ボタン、ダイヤルでプレイリストと新作をブラウズ。複数アカウント対応。",
   "Name": "Spotify Enhanced",
-  "Localization": {
-    "Account": "アカウント",
-    "Add account": "アカウントを追加",
-    "Confirm": "確認",
-    "Connect": "接続",
-    "Device": "デバイス",
-    "Disconnect": "切断",
-    "Open Spotify Web Or App": "Spotify Web またはアプリを開く",
-    "Guide Title": "Spotify アプリを作成してアカウントを接続します。",
-    "Guide Content": "Spotify アカウントの Client ID と Client Secret を入力してください。",
-    "Guide Link": "ここをクリック。",
-    "Volume Down": "音量を下げる",
-    "Volume Up": "音量を上げる",
-    "Up 10% Volume": "音量を 10% 上げる",
-    "Down 10% Volume": "音量を 10% 下げる",
-    "Volume Value": "音量値",
-    "Set Volume To The Selected Value": "選択した値に音量を設定",
-    "Toggle Shuffle Mode": "シャッフルを切り替え",
-    "Toggle Repeat Mode: OFF | TRACK | CONTEXT": "リピート切替: オフ | 曲 | コンテキスト",
-    "Action": "アクション",
-    "Volume Step": "音量ステップ",
-    "Playlist": "プレイリスト",
-    "Play Playlist": "プレイリストを再生",
-    "Select a playlist": "プレイリストを選択",
-    "Loading playlists...": "プレイリストを読み込み中...",
-    "No playlist selected": "プレイリストが選択されていません",
-    "Playlist not configured": "プレイリストが設定されていません",
-    "Configure the playlist in the settings panel": "設定パネルでプレイリストを設定してください",
-    "Now playing": "再生中"
-  }
+  "Actions": [
+    {
+      "Name": "再生/一時停止",
+      "Tooltip": "現在のデバイスで再生/一時停止"
+    },
+    {
+      "Name": "前の曲",
+      "Tooltip": "前の曲を再生"
+    },
+    {
+      "Name": "次の曲",
+      "Tooltip": "次の曲を再生"
+    },
+    {
+      "Name": "シャッフル切り替え",
+      "Tooltip": "現在のデバイスでシャッフルを切り替え"
+    },
+    {
+      "Name": "リピート切り替え",
+      "Tooltip": "現在のデバイスでリピートを切り替え"
+    },
+    {
+      "Name": "ミュート",
+      "Tooltip": "Spotify の音量をミュートまたは復元"
+    },
+    {
+      "Name": "音量設定",
+      "Tooltip": "現在のデバイスで音量を設定"
+    },
+    {
+      "Name": "音量を上げる",
+      "Tooltip": "現在のデバイスで音量を上げる"
+    },
+    {
+      "Name": "音量を下げる",
+      "Tooltip": "現在のデバイスで音量を下げる"
+    },
+    {
+      "Name": "曲の「いいね」を切り替え",
+      "Tooltip": "現在の曲の「いいね」を切り替え"
+    },
+    {
+      "Name": "再生コントローラー",
+      "Tooltip": "現在のデバイスで再生/一時停止/次へ/前へ"
+    },
+    {
+      "Name": "音量コントローラー",
+      "Tooltip": "回転で音量調整、押してミュート切り替え"
+    },
+    {
+      "Name": "マイプレイリスト",
+      "Tooltip": "Spotifyプレイリストにすばやくアクセス、回転で閲覧、押して再生"
+    },
+    {
+      "Name": "新作リリース",
+      "Tooltip": "Spotifyの新作をブラウズして再生"
+    },
+    {
+      "Name": "プレイリストを再生",
+      "Tooltip": "指定した Spotify プレイリストを再生/一時停止"
+    }
+  ]
 }
